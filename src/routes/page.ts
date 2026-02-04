@@ -11,7 +11,7 @@ import Post from '../models/Post.js';
 const router = Router();
 
 // Get all public pages (for explore)
-router.get('/', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/', async (_req: Request, res: Response, next: NextFunction) => {
     try {
         const pages = await CreatorPage.find({ isPublic: true, status: 'published' })
             .select('pageSlug displayName tagline avatarUrl bannerUrl memberCount postCount theme')

@@ -10,7 +10,7 @@ import PostView from '../models/PostView.js';
 import Comment from '../models/Comment.js';
 import CreatorPage from '../models/CreatorPage.js';
 import Membership from '../models/Membership.js';
-import Notification from '../models/Notification.js';
+
 import { NotificationService } from '../services/notificationService.js';
 
 const router = Router();

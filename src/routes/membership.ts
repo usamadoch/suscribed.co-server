@@ -4,7 +4,7 @@ import { AuthenticatedRequest } from '../types/index.js';
 import { protect } from '../middleware/auth.js';
 import Membership from '../models/Membership.js';
 import CreatorPage from '../models/CreatorPage.js';
-import Notification from '../models/Notification.js';
+
 import { NotificationService } from '../services/notificationService.js';
 
 const router = Router();

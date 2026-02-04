@@ -221,7 +221,7 @@ const seedData = async () => {
                 pageSlug: profile.username,
                 displayName: profile.displayName,
                 tagline: profile.tagline,
-                aboutHtml: profile.about,
+                about: profile.about,
                 isPublic: true,
                 bannerUrl: `https://picsum.photos/seed/${profile.username}/1500/500`,
                 theme: {
@@ -269,13 +269,10 @@ const seedData = async () => {
                     caption: `This is post #${j + 1} from ${profile.displayName}. ${shuffledTitles[j % shuffledTitles.length]}`,
                     visibility: isPublic ? 'public' : 'members',
                     status: 'published',
-                    status: 'published',
                     // featuredImage removed
-                    stats: {
-                        views: rand(100, 1000) * viewMultiplier,
-                        likes: rand(10, 100) * likeMultiplier,
-                        comments: profile.isFamous ? rand(50, 500) : rand(5, 50),
-                    },
+                    viewCount: rand(100, 1000) * viewMultiplier,
+                    likeCount: rand(10, 100) * likeMultiplier,
+                    commentCount: profile.isFamous ? rand(50, 500) : rand(5, 50),
                     createdAt,
                     updatedAt: createdAt,
                 });
@@ -398,7 +395,7 @@ const seedData = async () => {
             pageSlug: 'testcreator',
             displayName: 'Test Creator',
             tagline: 'Simple test creator account',
-            aboutHtml: '<p>This is a simple test creator account.</p>',
+            about: '<p>This is a simple test creator account.</p>',
             isPublic: true,
             memberCount: 0,
             postCount: 0,

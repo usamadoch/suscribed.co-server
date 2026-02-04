@@ -92,6 +92,7 @@ export interface ICreatorPage {
     isPublic: boolean;
     memberCount: number;
     postCount: number;
+    status: 'draft' | 'published';
     createdAt: Date;
     updatedAt: Date;
 }
