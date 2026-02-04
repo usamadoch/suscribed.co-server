@@ -93,6 +93,11 @@ app.get('/api/health', (_req: Request, res: Response) => {
     });
 });
 
+// Home route to verify server is running
+app.get('/home', (_req: Request, res: Response) => {
+    res.send('Server is online!');
+});
+
 // Readiness check (checks DB and Redis)
 app.get('/api/ready', async (_req: Request, res: Response) => {
     const mongoReady = mongoose.connection.readyState === 1;
