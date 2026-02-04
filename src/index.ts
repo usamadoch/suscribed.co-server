@@ -67,10 +67,14 @@ app.use(cors({
         // Allow requests with no origin (like mobile apps or curl requests)
         if (!origin) return callback(null, true);
 
-        // Support comma-separated URLs in CLIENT_URL
-        const allowedOrigins = config.clientUrl.split(',').map(url => url.trim());
+        // Hardcoded allowed origins for debugging
+        const allowedOrigins = [
+            'https://suscribed.vercel.app',
+            'http://localhost:3000',
+            config.clientUrl // Include env var just in case
+        ];
 
-        if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.includes('*')) {
+        if (allowedOrigins.indexOf(origin) !== -1 || origin.endsWith('.vercel.app')) {
             callback(null, true);
         } else {
             logger.warn(`CORS blocked origin: ${origin}`);
