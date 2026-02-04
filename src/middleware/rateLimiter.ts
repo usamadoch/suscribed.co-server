@@ -78,6 +78,8 @@ const createRateLimiter = (configKey: string): RateLimitRequestHandler => {
         },
         // Disable all validation to avoid compatibility issues
         validate: false,
+        // Skip OPTIONS requests (CORS preflight)
+        skip: (req) => req.method === 'OPTIONS',
     };
 
     // Use Redis store if Redis is available (only in production)
