@@ -59,9 +59,7 @@ app.set('io', io);
 app.set('trust proxy', 1);
 
 // Core middleware
-app.use(helmet({
-    crossOriginResourcePolicy: { policy: 'cross-origin' },
-}));
+// CORS must be first
 app.use(cors({
     origin: (origin, callback) => {
         // Allow requests with no origin (like mobile apps or curl requests)
@@ -71,6 +69,7 @@ app.use(cors({
         const allowedOrigins = [
             'https://suscribed.vercel.app',
             'http://localhost:3000',
+            'https://suscribed-co-server.onrender.com', // Self
             config.clientUrl // Include env var just in case
         ];
 
@@ -82,6 +81,10 @@ app.use(cors({
         }
     },
     credentials: true,
+}));
+
+app.use(helmet({
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
 }));
 app.use(correlationIdMiddleware);
 app.use(requestLogger);
