@@ -94,8 +94,21 @@ app.get('/api/health', (_req: Request, res: Response) => {
 });
 
 // Home route to verify server is running
+// Home route to verify server is running and show config
 app.get('/home', (_req: Request, res: Response) => {
-    res.send('Server is online!');
+    const mongoStatus = mongoose.connection.readyState === 1 ? 'connected' : 'disconnected';
+
+    res.json({
+        message: 'Server is online!',
+        env: config.env,
+        clientUrl: config.clientUrl,
+        database: {
+            status: mongoStatus
+        },
+        cors: {
+            allowedOrigin: config.clientUrl
+        }
+    });
 });
 
 // Readiness check (checks DB and Redis)
