@@ -1,0 +1,106 @@
+﻿  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒùé´©Å backup and recover secrets: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+node.exe : (node:2820) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:2820) Exp...nge at any time:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+00:56:38 [31merror[39m: Unexpected error {"service":"patreon-mvp","method":"POST","path":"/api/conversations/696fddf65aaa8a3f51915905/messages","error":"Cannot read properties of undefined (reading 'to')","stack":"TypeError: Cannot read properties of undefined (reading 'to')\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\routes\\conversation.ts:226:16\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+FAIL src/__tests__/messaging.test.ts (10.331 s)
+  Messaging API
+    GET /api/conversations
+      Ôùï skipped should return empty array when no conversations
+      Ôùï skipped should return user's conversations
+      Ôùï skipped should require authentication
+    POST /api/conversations
+      Ôùï skipped should create conversation when membership exists
+      Ôùï skipped should return existing conversation
+      Ôùï skipped should reject conversation without membership
+    GET /api/conversations/:id/messages
+      Ôùï skipped should return messages for participant
+      Ôùï skipped should reject non-participant
+    POST /api/conversations/:id/messages
+      ├ù should send message as participant (1975 ms)
+      Ôùï skipped should reject message from non-participant
+    PUT /api/conversations/:conversationId/messages/:messageId/read
+      Ôùï skipped should mark message as read for participant
+      Ôùï skipped should reject non-participant from marking message read
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations/:id/messages ÔÇ║ should send message as participant
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 500
+
+    [0m [90m 179 |[39m                 [33m.[39msend({ content[33m:[39m [32m'Hello creator!'[39m 
+})[33m;[39m
+     [90m 180 |[39m
+    [31m[1m>[22m[39m[90m 181 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m201[39m)[33m;[39m
+     [90m     |[39m                                     [31m[1m^[22m[39m
+     [90m 182 |[39m             
+expect(response[33m.[39mbody[33m.[39mdata[33m.[39mmessage[33m.[39mcontent)[33m.[39mtoBe([32m'Hello 
+creator!'[39m)[33m;[39m
+     [90m 183 |[39m         })[33m;[39m
+     [90m 184 |[39m[0m
+
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:181:37)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ÔÜÖ´©Å  override existing env vars with { override: true }
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ÔÜÖ´©Å  suppress all logs with { quiet: true }
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:2820) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Test Suites: 1 failed, 2 skipped, 1 of 3 total
+Tests:       1 failed, 39 skipped, 40 total
+Snapshots:   0 total
+Time:        14.526 s, estimated 32 s
+Ran all test suites with tests matching "should send message as participant".

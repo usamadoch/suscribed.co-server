@@ -1,0 +1,282 @@
+﻿  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒøá´©Å  run anywhere with `dotenvx run -- yourcommand`
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+node.exe : (node:6872) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:6872) Exp...nge at any time:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+00:37:59 [31merror[39m: Unexpected error {"service":"patreon-mvp","method":"POST","path":"/api/posts","error":"Post validation failed: content.blocks.0: Cast to [string] failed for value \"[ { type: 'paragraph', data: { text: 'Hello' } } ]\" (type string) at path \"blocks.0\" because of \"CastError\"","stack":"ValidationError: Post validation failed: content.blocks.0: Cast to [string] failed for value \"[ { type: 'paragraph', data: { text: 'Hello' } } ]\" (type string) at path \"blocks.0\" because of \"CastError\"\n    at model.Document.invalidate (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:3379:32)\n    at SingleNested.Subdocument.invalidate (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:252:12)\n    at SingleNested.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1504:12)\n    at SingleNested.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n    at SingleNested.Document (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at SingleNested.Subdocument (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:43:12)\n    at new SingleNested (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schema\\subdocument.js:79:21)\n    at SchemaSubdocument.cast (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schema\\subdocument.js:222:12)\n    at SchemaSubdocument.SchemaType.applySetters (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schemaType.js:1280:12)\n    at model.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1464:22)\n    at model.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n    at model.Document (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:129:12)\n    at new model (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:4668:15)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:2711:20\n    at Array.map (<anonymous>)\n    at model.create (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:2699:34)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\routes\\post.ts:168:37\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+00:38:00 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/posts","error":"Access denied. Required roles: creator, admin","stack":"Error: Access denied. Required roles: creator, admin\n    at forbidden (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:59:9)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:97:25\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:44:9)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+00:38:00 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/posts","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:171:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at processTicksAndRejections (node:internal/process/task_queues:89:21)"}
+FAIL src/__tests__/posts.test.ts (23.967 s)
+  Posts API
+    GET /api/posts
+      ÔêÜ should return empty array when no posts (1041 ms)
+      ÔêÜ should return published posts (895 ms)
+      ÔêÜ should not return draft posts (724 ms)
+    POST /api/posts
+      ├ù should create post when creator is authenticated (742 ms)
+      ÔêÜ should reject post creation from non-creator (661 ms)
+      ÔêÜ should reject post creation without authentication (152 ms)
+    GET /api/posts/:id
+      ÔêÜ should return public post (904 ms)
+      ÔêÜ should return 404 for non-existent post (79 ms)
+      ÔêÜ should restrict members-only post to non-members (618 ms)
+      ÔêÜ should allow creator to view their members-only post (603 ms)
+      ÔêÜ should allow member to view members-only post (1138 ms)
+    PUT /api/posts/:id
+      ÔêÜ should update own post (788 ms)
+      ÔêÜ should not allow updating another creator's post (1089 ms)
+    DELETE /api/posts/:id
+      ÔêÜ should delete own post (587 ms)
+      ÔêÜ should not allow deleting another creator's post (1481 ms)
+
+  ÔùÅ Posts API ÔÇ║ POST /api/posts ÔÇ║ should create post when creator is authenticated
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 500
+
+    [0m [90m 70 |[39m                 })[33m;[39m
+     [90m 71 |[39m
+    [31m[1m>[22m[39m[90m 72 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m201[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 73 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mtrue[39m)[33m;[39m
+     [90m 74 |[39m             
+expect(response[33m.[39mbody[33m.[39mdata[33m.[39mpost[33m.[39mtitle)[33m.[39mtoBe([32m'New 
+Post'[39m)[33m;[39m
+     [90m 75 |[39m         })[33m;[39m[0m
+
+      at Object.<anonymous> (src/__tests__/posts.test.ts:72:37)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ÔÜÖ´©Å  override existing env vars with { override: true }
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+00:38:13 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/conversations","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+00:38:21 [31merror[39m: Unexpected error {"service":"patreon-mvp","method":"POST","path":"/api/conversations/696fd9ad4f83f660527637f9/messages","error":"Cannot read properties of undefined (reading 'to')","stack":"TypeError: Cannot read properties of undefined (reading 'to')\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\routes\\conversation.ts:226:16\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+00:38:25 [31merror[39m: Unexpected error {"service":"patreon-mvp","method":"PUT","path":"/api/conversations/696fd9b04f83f66052763829/messages/696fd9b04f83f6605276382b/read","error":"Cannot read properties of undefined (reading 'to')","stack":"TypeError: Cannot read properties of undefined (reading 'to')\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\routes\\conversation.ts:294:12\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+FAIL src/__tests__/messaging.test.ts (18.969 s)
+  Messaging API
+    GET /api/conversations
+      ÔêÜ should return empty array when no conversations (1417 ms)
+      ÔêÜ should return user's conversations (1279 ms)
+      ÔêÜ should require authentication (110 ms)
+    POST /api/conversations
+      ÔêÜ should create conversation when membership exists (1280 ms)
+      ÔêÜ should return existing conversation (1184 ms)
+      ÔêÜ should reject conversation without membership (1196 ms)
+    GET /api/conversations/:id/messages
+      ÔêÜ should return messages for participant (1232 ms)
+      ÔêÜ should reject non-participant (1684 ms)
+    POST /api/conversations/:id/messages
+      ├ù should send message as participant (1250 ms)
+      ÔêÜ should reject message from non-participant (1728 ms)
+    PUT /api/conversations/:conversationId/messages/:messageId/read
+      ├ù should mark message as read for participant (1488 ms)
+      ÔêÜ should reject non-participant from marking message read (1685 ms)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations/:id/messages ÔÇ║ should send message as participant
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 500
+
+    [0m [90m 179 |[39m                 [33m.[39msend({ content[33m:[39m [32m'Hello creator!'[39m 
+})[33m;[39m
+     [90m 180 |[39m
+    [31m[1m>[22m[39m[90m 181 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m201[39m)[33m;[39m
+     [90m     |[39m                                     [31m[1m^[22m[39m
+     [90m 182 |[39m             
+expect(response[33m.[39mbody[33m.[39mdata[33m.[39mmessage[33m.[39mcontent)[33m.[39mtoBe([32m'Hello 
+creator!'[39m)[33m;[39m
+     [90m 183 |[39m         })[33m;[39m
+     [90m 184 |[39m[0m
+
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:181:37)
+
+  ÔùÅ Messaging API ÔÇ║ PUT /api/conversations/:conversationId/messages/:messageId/read ÔÇ║ should mark message as 
+read for participant
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 500
+
+    [0m [90m 227 |[39m                 [33m.[39m[36mset[39m([32m'Cookie'[39m[33m,[39m 
+[32m`accessToken=${accessToken}`[39m)[33m;[39m
+     [90m 228 |[39m
+    [31m[1m>[22m[39m[90m 229 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m200[39m)[33m;[39m
+     [90m     |[39m                                     [31m[1m^[22m[39m
+     [90m 230 |[39m             expect(response[33m.[39mbody[33m.[39mdata[33m.[39mmessage[33m.[39mstatus)
+[33m.[39mtoBe([32m'read'[39m)[33m;[39m
+     [90m 231 |[39m         })[33m;[39m
+     [90m 232 |[39m[0m
+
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:229:37)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒæÑ sync secrets across teammates & machines: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:6872) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+00:38:32 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/signup","error":"Email is already registered","stack":"Error: Email is already registered\n    at Object.duplicateEmail (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:101:9)\n    at Module.signup (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:63:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at signup (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:21:24)"}
+00:38:33 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/login","error":"Invalid email or password","stack":"Error: Invalid email or password\n    at Object.invalidCredentials (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:49:9)\n    at Module.login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:112:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:52:24)"}
+00:38:33 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/login","error":"Invalid email or password","stack":"Error: Invalid email or password\n    at Object.invalidCredentials (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:49:9)\n    at Module.login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:112:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:52:24)"}
+00:38:35 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/login","error":"Invalid email or password","stack":"Error: Invalid email or password\n    at Object.invalidCredentials (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:49:9)\n    at Module.login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:122:27)\n    at login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:52:24)"}
+00:38:35 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/auth/me","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+00:38:35 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/auth/me","error":"Invalid token","stack":"Error: Invalid token\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:50:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:71:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+00:38:36 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/logout","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:62:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+FAIL src/__tests__/auth.test.ts (9.872 s)
+  Auth API
+    POST /api/auth/signup
+      ÔêÜ should register a new member successfully (1567 ms)
+      ÔêÜ should register a new creator with page (659 ms)
+      ├ù should reject duplicate email (708 ms)
+      ├ù should reject duplicate username (626 ms)
+      ├ù should reject weak password (75 ms)
+    POST /api/auth/login
+      ├ù should login with valid credentials (138 ms)
+      ÔêÜ should reject invalid email (86 ms)
+      ÔêÜ should reject invalid password (1166 ms)
+    GET /api/auth/me
+      ÔêÜ should return current user when authenticated (650 ms)
+      ÔêÜ should return 401 when not authenticated (95 ms)
+      ÔêÜ should return 401 with invalid token (80 ms)
+    POST /api/auth/logout
+      ÔêÜ should logout successfully (639 ms)
+      ÔêÜ should return 401 when not authenticated (70 ms)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/signup ÔÇ║ should reject duplicate email
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "CONFLICT"
+    Received: "DUPLICATE_EMAIL"
+
+    [0m [90m 56 |[39m             expect(response[33m.[39mstatus)[33m.[39mtoBe([35m409[39m)[33m;[39m
+     [90m 57 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mfalse[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m 58 |[39m             
+expect(response[33m.[39mbody[33m.[39merror[33m.[39mcode)[33m.[39mtoBe([32m'CONFLICT'[39m)[33m;[39m
+     [90m    |[39m                                              [31m[1m^[22m[39m
+     [90m 59 |[39m         })[33m;[39m
+     [90m 60 |[39m
+     [90m 61 |[39m         it([32m'should reject duplicate username'[39m[33m,[39m [36masync[39m () 
+[33m=>[39m {[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:58:46)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/signup ÔÇ║ should reject duplicate username
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 409
+    Received: 429
+
+    [0m [90m 72 |[39m                 })[33m;[39m
+     [90m 73 |[39m
+    [31m[1m>[22m[39m[90m 74 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m409[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 75 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mfalse[39m)[33m;[39m
+     [90m 76 |[39m         })[33m;[39m
+     [90m 77 |[39m[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:74:37)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/signup ÔÇ║ should reject weak password
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 400
+    Received: 429
+
+    [0m [90m 87 |[39m                 })[33m;[39m
+     [90m 88 |[39m
+    [31m[1m>[22m[39m[90m 89 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m400[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 90 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mfalse[39m)[33m;[39m
+     [90m 91 |[39m             expect(response[33m.[39mbody[33m.[39merror[33m.[39mcode)[33m.[39mtoBe([32m
+'VALIDATION_ERROR'[39m)[33m;[39m
+     [90m 92 |[39m         })[33m;[39m[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:89:37)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/login ÔÇ║ should login with valid credentials
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 401
+
+    [0m [90m 113 |[39m                 })[33m;[39m
+     [90m 114 |[39m
+    [31m[1m>[22m[39m[90m 115 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m200[39m)[33m;[39m
+     [90m     |[39m                                     [31m[1m^[22m[39m
+     [90m 116 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mtrue[39m)[33m;[39m
+     [90m 117 |[39m             
+expect(response[33m.[39mbody[33m.[39mdata[33m.[39muser)[33m.[39mtoBeDefined()[33m;[39m
+     [90m 118 |[39m             [90m// Check cookies are set[39m[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:115:37)
+
+Test Suites: 3 failed, 3 total
+Tests:       7 failed, 33 passed, 40 total
+Snapshots:   0 total
+Time:        53.469 s
+Ran all test suites.

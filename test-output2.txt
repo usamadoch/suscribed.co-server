@@ -1,0 +1,1496 @@
+﻿  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒùé´©Å backup and recover secrets: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:95:29
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:95:29
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:96:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:96:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:97:34
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:97:34
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:98:38
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:98:38
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:99:35
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:99:35
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:100:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:100:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:101:27
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:101:27
+
+node.exe : (node:10516) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:10516) Ex...nge at any time:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+00:34:13 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/posts","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:171:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at processTicksAndRejections (node:internal/process/task_queues:89:21)"}
+FAIL src/__tests__/posts.test.ts (8.723 s)
+  Posts API
+    GET /api/posts
+      ÔêÜ should return empty array when no posts (942 ms)
+      ├ù should return published posts (80 ms)
+      ├ù should not return draft posts (92 ms)
+    POST /api/posts
+      ├ù should create post when creator is authenticated (96 ms)
+      ├ù should reject post creation from non-creator (33 ms)
+      ÔêÜ should reject post creation without authentication (161 ms)
+    GET /api/posts/:id
+      ├ù should return public post (51 ms)
+      ÔêÜ should return 404 for non-existent post (81 ms)
+      ├ù should restrict members-only post to non-members (51 ms)
+      ├ù should allow creator to view their members-only post (36 ms)
+      ├ù should allow member to view members-only post (36 ms)
+    PUT /api/posts/:id
+      ├ù should update own post (29 ms)
+      ├ù should not allow updating another creator's post (30 ms)
+    DELETE /api/posts/:id
+      ├ù should delete own post (24 ms)
+      ├ù should not allow deleting another creator's post (31 ms)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts ÔÇ║ should return published posts
+
+    ValidationError: User validation failed: username: Path `username` (`testuser17689376532046cfpbwgsn...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:20:36)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts ÔÇ║ should not return draft posts
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653305xiumqqcgw...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:40:36)
+
+  ÔùÅ Posts API ÔÇ║ POST /api/posts ÔÇ║ should create post when creator is authenticated
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653399pzqar3l72...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:60:37)
+
+  ÔùÅ Posts API ÔÇ║ POST /api/posts ÔÇ║ should reject post creation from non-creator
+
+    ValidationError: User validation failed: username: Path `username` (`testuser176893765349431iamn6nk...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:78:37)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts/:id ÔÇ║ should return public post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser17689376536915fyjir8ne...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:106:36)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts/:id ÔÇ║ should restrict members-only post to non-members
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653824es9ndmqaj...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:132:45)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts/:id ÔÇ║ should allow creator to view their members-only post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser17689376538743xzc8x9zn...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:152:58)
+
+  ÔùÅ Posts API ÔÇ║ GET /api/posts/:id ÔÇ║ should allow member to view members-only post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653913i68cwygqj...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:173:45)
+
+  ÔùÅ Posts API ÔÇ║ PUT /api/posts/:id ÔÇ║ should update own post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653949sirvdh2f5...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:204:49)
+
+  ÔùÅ Posts API ÔÇ║ PUT /api/posts/:id ÔÇ║ should not allow updating another creator's post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937653978c11egvxqs...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:224:53)
+
+  ÔùÅ Posts API ÔÇ║ DELETE /api/posts/:id ÔÇ║ should delete own post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937654008ntte8h7su...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:246:49)
+
+  ÔùÅ Posts API ÔÇ║ DELETE /api/posts/:id ÔÇ║ should not allow deleting another creator's post
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937654033gdx8mhwtk...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/posts.test.ts:268:53)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: Ô£à audit secrets and track compliance: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:95:29
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:95:29
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:96:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:96:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:97:34
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:97:34
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:98:38
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:98:38
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:99:35
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:99:35
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:100:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:100:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:101:27
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:101:27
+
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+00:34:18 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/signup","error":"Username is already taken","stack":"Error: Username is already taken\n    at Object.duplicateUsername (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:104:9)\n    at Module.signup (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:69:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at signup (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:21:24)"}
+00:34:18 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/login","error":"Invalid email or password","stack":"Error: Invalid email or password\n    at Object.invalidCredentials (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:49:9)\n    at Module.login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:112:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:52:24)"}
+00:34:18 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/login","error":"Invalid email or password","stack":"Error: Invalid email or password\n    at Object.invalidCredentials (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:49:9)\n    at Module.login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\services\\authService.ts:112:27)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at login (C:\\Users\\d\\Documents\\Project planning\\server\\src\\controllers\\authController.ts:52:24)"}
+00:34:18 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/auth/me","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+00:34:19 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/auth/me","error":"Invalid token","stack":"Error: Invalid token\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:50:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:71:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+00:34:19 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"POST","path":"/api/auth/logout","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:62:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+FAIL src/__tests__/auth.test.ts (5.072 s)
+  Auth API
+    POST /api/auth/signup
+      ÔêÜ should register a new member successfully (1063 ms)
+      ÔêÜ should register a new creator with page (446 ms)
+      ├ù should reject duplicate email (37 ms)
+      ÔêÜ should reject duplicate username (437 ms)
+      ├ù should reject weak password (51 ms)
+    POST /api/auth/login
+      ├ù should login with valid credentials (65 ms)
+      ÔêÜ should reject invalid email (57 ms)
+      ├ù should reject invalid password (33 ms)
+    GET /api/auth/me
+      ├ù should return current user when authenticated (32 ms)
+      ÔêÜ should return 401 when not authenticated (58 ms)
+      ÔêÜ should return 401 with invalid token (46 ms)
+    POST /api/auth/logout
+      ├ù should logout successfully (40 ms)
+      ÔêÜ should return 401 when not authenticated (48 ms)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/signup ÔÇ║ should reject duplicate email
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937658209mkwcg9w2g...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/auth.test.ts:44:13)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/signup ÔÇ║ should reject weak password
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 400
+    Received: 429
+
+    [0m [90m 87 |[39m                 })[33m;[39m
+     [90m 88 |[39m
+    [31m[1m>[22m[39m[90m 89 |[39m             expect(response[33m.[39mstatus)[33m.[39mtoBe([35m400[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 90 |[39m             expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mfalse[39m)[33m;[39m
+     [90m 91 |[39m             
+expect(response[33m.[39mbody[33m.[39merror[33m.[39mcode)[33m.[39mtoBe([32m'VALIDATION_ERROR'[39m)[33m;[39m
+     [90m 92 |[39m         })[33m;[39m[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:89:37)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/login ÔÇ║ should login with valid credentials
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 401
+
+    [0m [90m 113 |[39m                 })[33m;[39m
+     [90m 114 |[39m
+    [31m[1m>[22m[39m[90m 115 |[39m             expect(response[33m.[39mstatus)[33m.[39mtoBe([35m200[39m)[33m;[39m
+     [90m     |[39m                                     [31m[1m^[22m[39m
+     [90m 116 |[39m             expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mtrue[39m)[33m;[39m
+     [90m 117 |[39m             expect(response[33m.[39mbody[33m.[39mdata[33m.[39muser)[33m.[39mtoBeDefined()[33m;[39m
+     [90m 118 |[39m             [90m// Check cookies are set[39m[0m
+
+      at Object.<anonymous> (src/__tests__/auth.test.ts:115:37)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/login ÔÇ║ should reject invalid password
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937658869wx46d09xo...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/auth.test.ts:135:13)
+
+  ÔùÅ Auth API ÔÇ║ GET /api/auth/me ÔÇ║ should return current user when authenticated
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937658903p2ujeymsf...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/auth.test.ts:151:37)
+
+  ÔùÅ Auth API ÔÇ║ POST /api/auth/logout ÔÇ║ should logout successfully
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937659042nambr2k1j...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/auth.test.ts:182:37)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒöæ add access controls to secrets: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:95:29
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:95:29
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:96:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:96:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:97:34
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:97:34
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:98:38
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:98:38
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:99:35
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:99:35
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:100:30
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:100:30
+
+  console.error
+    ValidationError: Custom keyGenerator appears to use request IP without calling the ipKeyGenerator helper function for IPv6 addresses. This could allow IPv6 users to bypass limits. See https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/ for more information.
+        at Object.keyGeneratorIpFallback (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:608:13)
+        at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:651:22)
+        at parseOptions (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:721:16)
+        at rateLimit (C:\Users\d\Documents\Project planning\server\node_modules\express-rate-limit\dist\index.mjs:802:18)
+        at createRateLimiter (C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:91:12)
+        at C:\Users\d\Documents\Project planning\server\src\middleware\rateLimiter.ts:101:27
+        at SourceTextModule.evaluate (node:internal/vm/module:233:26)
+        at Runtime.linkAndEvaluateModule (C:\Users\d\Documents\Project planning\server\node_modules\jest-runtime\build\index.js:686:20)
+        at jestAdapter (C:\Users\d\Documents\Project planning\server\node_modules\jest-circus\build\runner.js:93:5)
+        at runTestInternal (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:275:16)
+        at runTest (C:\Users\d\Documents\Project planning\server\node_modules\jest-runner\build\index.js:343:7) {
+      code: 'ERR_ERL_KEY_GEN_IPV6',
+      help: 'https://express-rate-limit.github.io/ERR_ERL_KEY_GEN_IPV6/'
+    }
+
+    [0m [90m 89 |[39m     }
+     [90m 90 |[39m
+    [31m[1m>[22m[39m[90m 91 |[39m     [36mreturn[39m rateLimit(limiterOptions)[33m;[39m
+     [90m    |[39m            [31m[1m^[22m[39m
+     [90m 92 |[39m }[33m;[39m
+     [90m 93 |[39m
+     [90m 94 |[39m [90m// Export pre-configured rate limiters[39m[0m
+
+      at Object.wrappedValidations.<computed> [as keyGeneratorIpFallback] (node_modules/express-rate-limit/dist/index.mjs:657:24)
+      at parseOptions (node_modules/express-rate-limit/dist/index.mjs:721:16)
+      at rateLimit (node_modules/express-rate-limit/dist/index.mjs:802:18)
+      at createRateLimiter (src/middleware/rateLimiter.ts:91:12)
+      at src/middleware/rateLimiter.ts:101:27
+
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and 
+"schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+(node:10516) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an index using both "index: true" 
+and "schema.index()". Please remove the duplicate index definition.
+00:34:22 [33mwarn[39m: Operational error {"service":"patreon-mvp","method":"GET","path":"/api/conversations","error":"No token provided","stack":"Error: No token provided\n    at unauthorized (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\errorHandler.ts:46:9)\n    at protect (C:\\Users\\d\\Documents\\Project planning\\server\\src\\middleware\\auth.ts:25:25)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at cookieParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\cookie-parser\\index.js:57:14)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at read (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\read.js:53:5)\n    at jsonParser (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\body-parser\\lib\\types\\json.js:88:5)\n    at Layer.handleRequest (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\router\\index.js:186:3)\n    at app.handle (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\application.js:177:15)\n    at Server.app (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\express\\lib\\express.js:38:9)\n    at Server.emit (node:events:508:28)\n    at parserOnIncoming (node:_http_server:1210:12)\n    at HTTPParser.parserOnHeadersComplete (node:_http_common:123:17)"}
+FAIL src/__tests__/messaging.test.ts
+  Messaging API
+    GET /api/conversations
+      ├ù should return empty array when no conversations (479 ms)
+      ├ù should return user's conversations (60 ms)
+      ÔêÜ should require authentication (93 ms)
+    POST /api/conversations
+      ├ù should create conversation when membership exists (39 ms)
+      ├ù should return existing conversation (31 ms)
+      ├ù should reject conversation without membership (34 ms)
+    GET /api/conversations/:id/messages
+      ├ù should return messages for participant (30 ms)
+      ├ù should reject non-participant (33 ms)
+    POST /api/conversations/:id/messages
+      ├ù should send message as participant (34 ms)
+      ├ù should reject message from non-participant (32 ms)
+    PUT /api/conversations/:conversationId/messages/:messageId/read
+      ├ù should mark message as read for participant (30 ms)
+      ├ù should reject non-participant from marking message read (34 ms)
+
+  ÔùÅ Messaging API ÔÇ║ GET /api/conversations ÔÇ║ should return empty array when no conversations
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937661894tjqcyxlfn...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:13:37)
+
+  ÔùÅ Messaging API ÔÇ║ GET /api/conversations ÔÇ║ should return user's conversations
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662384bgf0o2asv...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:24:39)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations ÔÇ║ should create conversation when membership exists
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662539vlwg1rxug...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:52:45)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations ÔÇ║ should return existing conversation
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662577nyutr5oc8...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:74:45)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations ÔÇ║ should reject conversation without membership
+
+    ValidationError: User validation failed: username: Path `username` (`testuser176893766260866w1d80x5...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:103:39)
+
+  ÔùÅ Messaging API ÔÇ║ GET /api/conversations/:id/messages ÔÇ║ should return messages for participant
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662642ehancpe36...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:118:39)
+
+  ÔùÅ Messaging API ÔÇ║ GET /api/conversations/:id/messages ÔÇ║ should reject non-participant
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662673kyb0k955r...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:144:39)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations/:id/messages ÔÇ║ should send message as participant
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662706jpv09kjik...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:165:39)
+
+  ÔùÅ Messaging API ÔÇ║ POST /api/conversations/:id/messages ÔÇ║ should reject message from non-participant
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662741v25ju9aq5...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:186:39)
+
+  ÔùÅ Messaging API ÔÇ║ PUT /api/conversations/:conversationId/messages/:messageId/read ÔÇ║ should mark message as read for participant
+
+    ValidationError: User validation failed: username: Path `username` (`testuser1768937662773o36pfrak2...`, length 31) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:208:39)
+
+  ÔùÅ Messaging API ÔÇ║ PUT /api/conversations/:conversationId/messages/:messageId/read ÔÇ║ should reject non-participant from marking message read
+
+    ValidationError: User validation failed: username: Path `username` (`testuser17689376628043dtjpdhzr...`, length 32) is longer than the maximum 
+allowed length (30).
+
+    [0m [90m 40 |[39m         isEmailVerified[33m:[39m [36mtrue[39m[33m,[39m
+     [90m 41 |[39m     })[33m;[39m
+    [31m[1m>[22m[39m[90m 42 |[39m     [36mawait[39m user[33m.[39msave()[33m;[39m
+     [90m    |[39m     [31m[1m^[22m[39m
+     [90m 43 |[39m
+     [90m 44 |[39m     [90m// Generate access token[39m
+     [90m 45 |[39m     [36mconst[39m accessToken [33m=[39m jwt[33m.[39msign([0m
+
+      at model.Document.invalidate (node_modules/mongoose/lib/document.js:3379:32)
+      at validatePath (node_modules/mongoose/lib/document.js:3154:13)
+          at async Promise.all (index 4)
+      at model.$__validate (node_modules/mongoose/lib/document.js:3095:3)
+      at model.validate (node_modules/mongoose/lib/document.js:2672:5)
+      at model.validateBeforeSave (node_modules/mongoose/lib/plugins/validateBeforeSave.js:34:7)
+      at Kareem.execPre (node_modules/kareem/index.js:65:24)
+      at model.$__save (node_modules/mongoose/lib/model.js:369:5)
+      at model.save (node_modules/mongoose/lib/model.js:609:5)
+      at createTestUser (src/__tests__/helpers.ts:42:5)
+      at Object.<anonymous> (src/__tests__/messaging.test.ts:234:39)
+
+Test Suites: 3 failed, 3 total
+Tests:       29 failed, 11 passed, 40 total
+Snapshots:   0 total
+Time:        18.423 s, estimated 101 s
+Ran all test suites.

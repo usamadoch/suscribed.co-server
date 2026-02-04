@@ -1,0 +1,109 @@
+﻿  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒæÑ sync secrets across teammates & machines: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+node.exe : (node:11772) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:11772) Ex...nge at any time:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ­ƒöæ add access controls to secrets: https://dotenvx.com/ops
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+00:50:23 [31merror[39m: Unexpected error {"service":"patreon-mvp","method":"POST","path":"/api/posts","error":"Post validation failed: content.blocks.0: Cast to [string] failed for value \"[ { type: 'paragraph', data: { text: 'Hello' } } ]\" (type string) at path \"blocks.0\" because of \"CastError\"","stack":"ValidationError: Post validation failed: content.blocks.0: Cast to [string] failed for value \"[ { type: 'paragraph', data: { text: 'Hello' } } ]\" (type string) at path \"blocks.0\" because of \"CastError\"\n    at model.Document.invalidate (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:3379:32)\n    at SingleNested.Subdocument.invalidate (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:252:12)\n    at SingleNested.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1504:12)\n    at SingleNested.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n    at SingleNested.Document (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at SingleNested.Subdocument (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\types\\subdocument.js:43:12)\n    at new SingleNested (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schema\\subdocument.js:79:21)\n    at SchemaSubdocument.cast (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schema\\subdocument.js:222:12)\n    at SchemaSubdocument.SchemaType.applySetters (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\schemaType.js:1280:12)\n    at model.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1464:22)\n    at model.$set (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:1158:16)\n    at model.Document (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:129:12)\n    at new model (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:4668:15)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:2711:20\n    at Array.map (<anonymous>)\n    at model.create (C:\\Users\\d\\Documents\\Project planning\\server\\node_modules\\mongoose\\lib\\model.js:2699:34)\n    at C:\\Users\\d\\Documents\\Project planning\\server\\src\\routes\\post.ts:168:37\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)"}
+FAIL src/__tests__/posts.test.ts (5.915 s)
+  Posts API
+    GET /api/posts
+      Ôùï skipped should return empty array when no posts
+      Ôùï skipped should return published posts
+      Ôùï skipped should not return draft posts
+    POST /api/posts
+      ├ù should create post when creator is authenticated (1736 ms)
+      Ôùï skipped should reject post creation from non-creator
+      Ôùï skipped should reject post creation without authentication
+    GET /api/posts/:id
+      Ôùï skipped should return public post
+      Ôùï skipped should return 404 for non-existent post
+      Ôùï skipped should restrict members-only post to non-members
+      Ôùï skipped should allow creator to view their members-only post
+      Ôùï skipped should allow member to view members-only post
+    PUT /api/posts/:id
+      Ôùï skipped should update own post
+      Ôùï skipped should not allow updating another creator's post
+    DELETE /api/posts/:id
+      Ôùï skipped should delete own post
+      Ôùï skipped should not allow deleting another creator's post
+
+  ÔùÅ Posts API ÔÇ║ POST /api/posts ÔÇ║ should create post when creator is authenticated
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 500
+
+    [0m [90m 70 |[39m                 })[33m;[39m
+     [90m 71 |[39m
+    [31m[1m>[22m[39m[90m 72 |[39m             
+expect(response[33m.[39mstatus)[33m.[39mtoBe([35m201[39m)[33m;[39m
+     [90m    |[39m                                     [31m[1m^[22m[39m
+     [90m 73 |[39m             
+expect(response[33m.[39mbody[33m.[39msuccess)[33m.[39mtoBe([36mtrue[39m)[33m;[39m
+     [90m 74 |[39m             
+expect(response[33m.[39mbody[33m.[39mdata[33m.[39mpost[33m.[39mtitle)[33m.[39mtoBe([32m'New 
+Post'[39m)[33m;[39m
+     [90m 75 |[39m         })[33m;[39m[0m
+
+      at Object.<anonymous> (src/__tests__/posts.test.ts:72:37)
+
+  console.log
+    [dotenv@17.2.3] injecting env (20) from .env -- tip: ÔÜÖ´©Å  enable debug logging with { debug: true }
+
+      at _log (node_modules/dotenv/lib/main.js:142:11)
+
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"username":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"googleId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"pageSlug":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:11772) [MONGOOSE] Warning: Duplicate schema index on {"userId":1} found. This is often due to declaring an 
+index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+Test Suites: 1 failed, 2 skipped, 1 of 3 total
+Tests:       1 failed, 39 skipped, 40 total
+Snapshots:   0 total
+Time:        16.904 s, estimated 30 s
+Ran all test suites with tests matching "should create post when creator".
